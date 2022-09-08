@@ -937,9 +937,95 @@ td {
         background-color: blue; /* Add a dark-grey background on hover */
       }
 
+
+
+
+
+
+
+      /* Form styling starts from here */
+
+      @media screen and (max-width: 1000px) {
+        .frmdetail {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
+      @media screen and (min-width: 500px) {
+        .frm {
+          width: 70%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
+
       .frm {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: auto;
+        /* margin-top: -40px; */
+        /* margin-top: 50px; */
+        font-size:10vw;
+        font-weight: 2px;
       }
+
+      .frmdetail {
+        margin-top: 20px;
+        padding: 2rem 2rem;
+        border: 2px solid #1a73e8;
+        border-radius: 2rem;
+        /* font-size: medium; */
+        font-size: 1.5rem;
+        background-color: rgb(61, 226, 248);
+      }
+      .sub {
+        font-size: 1.8rem;
+      }
+      .formtitle {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #4285F4;
+      }
+
+      .subm {
+        border-radius: 10px;
+        word-wrap: none;
+        width: 4.4rem;
+        height: 2rem;
+        background-color: violet;
+        margin-top: 5px;
+        font-size: 1.2rem;
+      }
+      .Selt {
+        width: 100px;
+      }
+      .imgform {
+        margin-right: 10px;
+      }
+
+
+
+
+
+
+      /* SignIn form styles */
+      /* .signdfrm {
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+      
+       font-weight: 2px;
+
+      }
+      .signform {
+        margin-top: 20px;
+        padding: 2rem 2rem;
+        border: 2px solid #1a73e8;
+        border-radius: 2rem;
+        font-size: 1.5rem;
+        background-color: gray;
+
+       
+      } */
+

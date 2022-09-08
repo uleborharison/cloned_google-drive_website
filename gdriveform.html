@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Document</title>
 </head>
+
 <body>
-    
+  <div class="rate">
+    <div class="formtitle">
+      <img src="/IMAGE/drive.svg" class="imgform" alt="">
+      <h1>Google Drive Sign Up Form</h1>
+    </div>
+    <div class="frm">
+      
+      <form action="" class="frmdetail">
+        <h3>Registration Form</h3>
+        <label for="Firstname">Firstname</label><br>
+        <input type="text" name="" class="sub" id="" placeholder="Firstname" required><br>
+        <label for="Surname">Surname</label><br>
+        <input type="text" name="Surname" class="sub" id="" placeholder="Surname" required><br>
+        <label for="Middlename">Middlename</label><br>
+        <input type="text" name="Middlename" class="sub" id="" placeholder="Middlename"><br>
 
-<div class= "frm">
-<form action="">
-    <label for="Firstname">Firstname</label><br>
-    <input type="text" name="" id="" placeholder="Firstname" required><br>
-    <label for="Surname">Surname</label><br>
-    <input type="text" name="Surname" id="" placeholder="Surname" required><br>
-    <label for="Middlename">Middlename</label><br>
-    <input type="text" name="Middlename" id="" placeholder="Middlename"><br>
+        <label for="Course">Choose course</label><br>
+        <select name="Select Course" class="sub selt" id="" >
+          <option value="">Select Course</option>
+          <option value="">HTML</option>
+          <option value="">CSS</option>
+          <option value="">JavaScript</option>
+          <option value="">Python</option>
+          <option value="">PHP</option>
+          <option value="">C#</option>
+          <option value="">Java</option>
+        </select><br>
 
+        <label for="Email">Email</label><br>
+        <input type="text" name="Email" class="sub" placeholder="Email" required><br>
+        <label for="PhoneNum">Phone Number</label><br>
+        <input type="number" name="PhoneNum" class="sub" maxlength="11" placeholder="Phone Number" required><br>
+        <input type="radio" class="sub" id="" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" class="sub" id="" name="gender" value="Female">
+        <label for="Male">Female</label><br>
+        <label for="country">Country of Origin</label><br>
+        <input type="text" name="Country" class="sub" placeholder="Country of origin" required><br>
 
-    <label for="Email">Email</label><br>
-    <input type="text" name="Email" placeholder="Email" required><br>
-
-
-
-
-
-    <label for="Email">Email</label><br>
-    <input type="text" name="Email" placeholder="Email" required><br>
-    <label for="PhoneNum">Phone Number</label><br>
-    <input type="number" name="PhoneNum" maxlength="11" placeholder="Phone Number" required><br>
-    <input type="radio" id="" name="gender" value="Male">
-  <label for="Male">Male</label>
-  <input type="radio" id="" name="gender" value="Female">
-  <label for="Male">Female</label><br>
-    <label for="Gender">Are you sure you are a Human?</label>
-    <input type="checkbox" name="" id=""><br>
-    <input type="button" value="Submit">
-</form>
-</div>
+        <label for="password">Create Password</label><br>
+        <input type="password" name="password" class="sub" placeholder="Create your password" maxlength="8" required><br>
+        <label for="password">Confirm Password</label><br>
+        <input type="password" name="password" class="sub" placeholder="Confirm your password" maxlength="8" required><br>
+        <label for="Gender">Are you sure you are a Human?</label>
+        <input type="checkbox" name="" class="sub" id=""><br>
+        <button class="subm subbtn">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>
